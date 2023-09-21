@@ -17,7 +17,7 @@ public class CalculoSueldo {
         Empleado miEmpleado = new Empleado(/*casado con el constrcutor*/);
         double sueldo = miEmpleado.calcularSueldo();
         System.out.println("Sueldo: "+sueldo);
-        Empleado empleado = new Empleado("Sergio","Ardila","12020202",1000000,17);
+        Empleado empleado = new Empleado("Sergio","Ardila","12020202",1000000,17,5);
         System.out.println(empleado.calcularSueldo());
         Empleado empleadito = new Empleado(15000, 76);
         System.out.println(""+empleadito.calcularSueldo());
